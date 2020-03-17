@@ -17,5 +17,4 @@ FALSE  TRUE
 > prop.table(table(tweetAUS$isRetweet))*100
 
 FALSE  TRUE 
- 62.5  37.5 
-> 
+  
