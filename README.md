@@ -241,6 +241,6 @@ Total_Fav_Retweet_UK     36219
 
 <p align="center"><img width=86% src=https://user-images.githubusercontent.com/44467789/76830156-aac30e80-684a-11ea-9336-5a4724db2c5f.png>
 
-As we can see in the gr
+As we can see in the chart, WHO is leading with respect to their activeness on social medial platform Twitter. Here, we also interestingly see that the Australian health department is lagging far behind. 
                        
                    
