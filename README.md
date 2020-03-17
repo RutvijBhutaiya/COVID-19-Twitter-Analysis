@@ -111,6 +111,78 @@ Similarly, we did for all the official twitter heal account from India, the US, 
 
 ## Tweet Analysis
 
+For analysis of tweets and we focused on retweets and favoritetweets. The understanding was to showcase how effective and actives their officialhealth departments twitter official accounts are. Did they helped used calm andare those official accounts sufficient to spread awareness. Let’s check. 
+
+<br>
+
+#### ReTweet ratio
+
+The ratio defines, how many tweets reTweeted by @WHO – retweeted TRUE or FALSE. 
+
+```
+tweetWHO = tweetWHO1[, c("favoriteCount", "retweetCount", "isRetweet", 'screenName')]
+
+# ReTweet Ratio - T/F
+
+prop.table(table(tweetWHO$isRetweet))*100
+
+Total_retweet_WHO = sum(tweetWHO$retweetCount)
+```
+
+Results indicats, only 37.4 retwetted by @WHO from the mentioned time frame.
+And total number of ReTweets were :Total_retweet_WHO
+[1] 320147
+
+  FALSE     TRUE 
+62.58503 37.41497
+
+<br>
+
+#### Favourite tweet:
+
+Favourite tweet analysis, is for favourite tweets from @WHO. And what is the total count of Favourite tweets on @WHO tweets. 
+
+```
+favTweetsWHO = tweetWHO[which(tweetWHO$favoriteCount != 0),]
+
+prop.table(table(favTweetsWHO$isRetweet))*100
+
+Total_Fav_Retweet_WHO = sum(favTweetsWHO$retweetCount)
+
+WHO = data.frame(Total_retweet_WHO, Total_Fav_Retweet_WHO)
+head(WHO)
+```
+Total ReTweets: 320147 and Total Favourite tweets: 248133
+
+<br>
+
+#### Word frequency in text(tweet)
+
+For the analysis we also created word cloud, and counts of word frequency in tweet from @WHO account. 
+
+```
+## Check the Most Frequently used Text
 
 
-Note: GitUploaded data and Study us diffrent. 
+textWHO = dfm(tweetWHO1$text, remove = stopwords("english"), stem = TRUE, remove_punct = TRUE)
+
+topfeatures(textWHO, 20)
+
+textplot_wordcloud(textWHO, min_count = 10, max_words = 100, color = c('coral', 'seagreen'),
+                   random_order = FALSE, rotation = 0.1)
+```
+
+Results,
+
+> topfeatures(textWHO, 20)
+    #covid19           rt     @drtedro          amp         case      countri 
+         149          110          100           90           68           64 
+   transmiss         @who         stop      prevent #coronavirus    communiti 
+          61           40           39           36           35           34 
+      spread        thank      respons          can       health      support 
+          32           28           27           26           25           22 
+       peopl     outbreak 
+          21           19 
+
+As, we can see #covid19 and @drtredro were among the highest used words in the tweets. 
+
