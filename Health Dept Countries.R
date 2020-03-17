@@ -49,7 +49,7 @@ Total_retweet_WHO = sum(tweetWHO$retweetCount)
 
 
 
-# Favourit Tweet
+# Favourite Tweet
 
 favTweetsWHO = tweetWHO[which(tweetWHO$favoriteCount != 0),]
 
@@ -70,7 +70,7 @@ textWHO = dfm(tweetWHO1$text, remove = stopwords("english"), stem = TRUE, remove
 
 topfeatures(textWHO, 20)
 
-textplot_wordcloud(textWHO, min_count = 10, max_words = 100, color = c('coral', 'seagreen'),
+textplot_wordcloud(textWHO, min_count = 5, max_words = 200, color = c('coral', 'seagreen'),
                    random_order = FALSE, rotation = 0.1)
 
 
@@ -127,7 +127,7 @@ textINDIA = dfm(tweetINDIA1$text, remove = stopwords("english"), stem = TRUE, re
 
 topfeatures(textINDIA, 20)
 
-textplot_wordcloud(textINDIA, min_count = 10, max_words = 100, color = c('coral', 'seagreen'),
+textplot_wordcloud(textINDIA, min_count = 5, max_words = 200, color = c('coral', 'seagreen'),
                    random_order = FALSE, rotation = 0.1)
 
 
@@ -234,7 +234,7 @@ textUK = dfm(tweetUK1$text, remove = stopwords("english"), stem = TRUE, remove_p
 
 topfeatures(textUK, 20)
 
-textplot_wordcloud(textUK, min_count = 5, max_words = 100, color = c('coral', 'seagreen', 'orange'),
+textplot_wordcloud(textUK, min_count = 5, max_words = 200, color = c('coral', 'seagreen', 'orange'),
                    random_order = FALSE, rotation = 0.1)
 
 
@@ -245,7 +245,7 @@ textplot_wordcloud(textUK, min_count = 5, max_words = 100, color = c('coral', 's
 
 ## @healthgovau - Australian Government Department of Health - Australia
 
-tweetAUS1 = searchTwitter('from:@HHSGov', 2500, lang = 'en', since = '2020-01-01', until = '2020-03-15')
+tweetAUS1 = searchTwitter('from:@healthgovau', 2500, lang = 'en', since = '2020-01-01', until = '2020-03-15')
 
 tweetAUS1 = do.call('rbind', lapply(tweetAUS1, as.data.frame))
 
@@ -287,7 +287,7 @@ textAUS = dfm(tweetAUS1$text, remove = stopwords("english"), stem = TRUE, remove
 
 topfeatures(textAUS, 20)
 
-textplot_wordcloud(textAUS, min_count = 5, max_words = 100, color = c('coral', 'seagreen', 'orange'),
+textplot_wordcloud(textAUS, min_count = 2, max_words = 100, color = c('orange','seagreen'),
                    random_order = FALSE, rotation = 0.1)
 
 
