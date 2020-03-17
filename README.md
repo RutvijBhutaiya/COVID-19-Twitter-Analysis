@@ -173,7 +173,7 @@ textplot_wordcloud(textWHO, min_count = 10, max_words = 100, color = c('coral', 
 ```
 
 Results,
-
+```
 > topfeatures(textWHO, 20)
     #covid19           rt     @drtedro          amp         case      countri 
          149          110          100           90           68           64 
@@ -183,6 +183,11 @@ Results,
           32           28           27           26           25           22 
        peopl     outbreak 
           21           19 
+```
 
 As, we can see #covid19 and @drtredro were among the highest used words in the tweets. 
+
+<p align="center"><img width=https://user-images.githubusercontent.com/44467789/76827473-e2c75300-6844-11ea-8f78-d7015ce95ce5.png>
+  
+ 
 
