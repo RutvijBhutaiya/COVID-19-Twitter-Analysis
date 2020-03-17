@@ -187,7 +187,37 @@ Results,
 
 As, we can see #covid19 and @drtredro were among the highest used words in the tweets. 
 
-<p align="center"><img width=https://user-images.githubusercontent.com/44467789/76827473-e2c75300-6844-11ea-8f78-d7015ce95ce5.png>
+<p align="center"><img width=86% src=https://user-images.githubusercontent.com/44467789/76827473-e2c75300-6844-11ea-8f78-d7015ce95ce5.png>
   
- 
+  
+<br>
 
+#### NOTE: Similarly, we follow the same process to find results from respected official twitter accounts, 
+
+#### From, India: Ministry of Health: @MoHFW_INDIA
+
+<p align="center"><img width=86% src=https://user-images.githubusercontent.com/44467789/76827876-c7107c80-6845-11ea-83f4-bcb5bb31bd2d.png>
+
+<br>
+
+#### The USA: TheU.S. Department of Health and Human Services: @HHSGov
+
+<p align="center"><img width=86% src=https://user-images.githubusercontent.com/44467789/76828007-050da080-6846-11ea-9e01-209fef955b25.png>
+ 
+ <br>
+ 
+#### UK: Department ofHealth and Social Care: @DHSCgovuk
+
+<p align="center"><img width=86% src=https://user-images.githubusercontent.com/44467789/76828091-325a4e80-6846-11ea-97e0-219e97556972.png>
+ 
+<br>
+
+#### Australia:Australian Government Department of Health: @healthgovau
+
+<p align="center"><img width=86% src=https://user-images.githubusercontent.com/44467789/76828283-9846d600-6846-11ea-824e-e7a72e6485a8.png>
+  
+<br>
+                       
+                       
+                       
+                   
