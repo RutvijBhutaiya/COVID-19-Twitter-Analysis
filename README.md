@@ -18,7 +18,7 @@
 - [Approach](#approach)
 - [Study Dataset Creation](#study-dataset-creation)
 - [Tweet Analysis](#tweet-analysis)
-- 
+- [Results](#results)
 
 
 <br>
