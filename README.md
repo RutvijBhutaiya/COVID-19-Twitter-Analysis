@@ -192,7 +192,8 @@ As, we can see #covid19 and @drtredro were among the highest used words in the t
   
 <br>
 
-#### NOTE: Similarly, we follow the same process to find results from respected official twitter accounts, 
+### NOTE: Similarly, we follow the same process to find results from respected official twitter accounts, 
+<br>
 
 #### From, India: Ministry of Health: @MoHFW_INDIA
 
@@ -219,5 +220,27 @@ As, we can see #covid19 and @drtredro were among the highest used words in the t
 <br>
                        
                        
+# Results
+
+As we can see the following data collected from the analysis, [R - code](https://github.com/RutvijBhutaiya/COVID-19-Twitter-Analysis/blob/master/Health%20Dept%20Countries.R)
+
+```
+> ORG_Tweet
+                          [,1]
+Total_retweet_WHO       320147
+Total_Fav_Retweet_WHO   248133
+Total_retweet_INDIA      86440
+Total_Fav_Retweet_INDIA  37058
+Total_retweet_AUS         1732
+Total_Fav_Retweet_AUS      864
+Total_retweet_USA        27603
+Total_Fav_Retweet_USA     3135
+Total_retweet_UK         67447
+Total_Fav_Retweet_UK     36219
+```
+
+<p align="center"><img width=86% src=
+
+As we can see in the gr
                        
                    
