@@ -44,11 +44,15 @@ Objective of this study is to do analysis on official twitter account from top c
 
 For the data, we turned to twitter API. Here, we targeted the important health department in countries and their official Twitter account. Twitter official accounts,
 
--  World Health Organization: @WHO
--  India: Ministry of Health: @MoHFW_INDIA
--  The USA: TheU.S. Department of Health and Human Services: @HHSGov
--  UK: Department ofHealth and Social Care: @DHSCgovuk
--  Australia:Australian Government Department of Health: @healthgovau
+- World Health Organization: @WHO
+
+- India: Ministry of Health: @MoHFW_INDIA
+
+- The USA: TheU.S. Department of Health and Human Services: @HHSGov
+
+- UK: Department ofHealth and Social Care: @DHSCgovuk
+
+- Australia:Australian Government Department of Health: @healthgovau
 
 
 For the analysis, we collected the tweets from the respectedoffice health accounts from 31st Dec 2019 till 15th March2020. 
