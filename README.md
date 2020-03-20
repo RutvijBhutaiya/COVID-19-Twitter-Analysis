@@ -25,7 +25,7 @@
 
 ## Objective
 
-Objective of this study is to do analysis on official twitter account from top countries health department and WHO twitter account on COVID-19 breakout since 31st Dec 2019 in Wuhan, China. We analysized which countries health departments are most active in this war against pandemic. 
+Objective of this study is to do an analysis on official twitter account from the top countries' health department and WHO twitter account on COVID-19 breakout since 31st Dec 2019 in Wuhan, China. We analyzed which countries' health departments are most active in this war against the pandemic.
 
 <br>
 
